@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <ThemeProvider theme={DefaultTheme} >
-        <App />
+            <App />
         </ThemeProvider>
     </React.StrictMode>
 );
