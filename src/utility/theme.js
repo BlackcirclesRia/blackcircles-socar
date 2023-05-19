@@ -17,6 +17,7 @@ const DefaultTheme = createTheme({
             gray:"#777",
             lightdark: "#e7e7e7",
             lightgray: "#f4f4f4",
+            light:"#fff",
             navy: "#143074",
             blue: "#2046a1",
             sky: "#6ec8e2",

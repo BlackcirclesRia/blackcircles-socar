@@ -1,9 +1,10 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import  Navbar  from '../component/Navbar';
+import  Appbar  from '../component/Appbar';
 import  ProfileTable  from '../component/ProfileTable';
 /** @jsxImportSource @emotion/react */
-import { wrap } from '../css/Navbar';
+import { wrap } from '../css/Profile';
 
 
 export default function Profile() {
@@ -11,7 +12,10 @@ export default function Profile() {
             <Box css={wrap} sx={{ display: 'flex' }}>
                <Navbar></Navbar>
                 <Box component="main" className="main_wrap">
-                    <ProfileTable></ProfileTable>
+                    <Appbar></Appbar>
+                    <Box  className="content">
+                        <ProfileTable></ProfileTable>
+                    </Box>
                 </Box>
             </Box>
     );
