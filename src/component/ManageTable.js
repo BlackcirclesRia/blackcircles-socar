@@ -47,7 +47,7 @@ export default function ManageTable() {
                                     <Button size="small" variant="contained">오더번호</Button>
                                     <span>1231339</span>
                                     <Button size="small" variant="contained">등록일자</Button>
-                                    <span>1231339</span>
+                                    <span>12313˚39</span>
                                     <Button size="small" variant="contained">배정업체</Button>
                                     <span>1231339</span>
                                 </div>
